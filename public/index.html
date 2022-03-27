@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/@api.video/video-uploader" defer></script>
+<script defer src="script.js"></script> 
+<link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z/CyHgAGVwJpiy6ZlgAAAABJRU5ErkJggg==">
+</head>
+<body>
+    <h1>Upload Test</h1>
+    <form>
+        <input type="file" id="input" onchange="uploadFile(this.files)" style="display:none;">
+        <div id="progress">
+            <div id="bar"></div>
+        </div>
+    </form> 
+    <section id="statusReport">
+
+    </section>
+    
+    <section id="videoPlayer">
+
+    </section>
+</body>
+</html>

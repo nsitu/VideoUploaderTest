@@ -1,0 +1,18 @@
+#progress{
+    width: 100%;
+    background: #ccc;
+    height: 20px;
+    padding: 5px;
+    display: none;
+}
+#progress #bar{
+    background: #22ee33;
+    height: 100%;
+}
+
+.encoded{
+    color: green;
+}
+.encoding{
+    color:red;
+}
